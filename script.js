@@ -1,4 +1,4 @@
-let student = {
+const student = {
   id: 1,
   name: "Jane",
   age: 21,
@@ -16,7 +16,7 @@ console.log(student);
 delete student.delete_me;
 console.log(student);
 
-let user = {
+const user = {
   firstName: "Matt",
   lastName: "Nebeker",
   city: "Alpine",
